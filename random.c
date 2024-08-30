@@ -11,5 +11,12 @@ A function to generate a random character.
 #define RAND_MIN 26
 
 char randchar() {
-    // comment
+    // integer for creating array of alphabet chars
+    int alphabet = 26;
+    char alphabetLetters[alphabet];
+
+    // initialize array
+    for (int i = 0; i < alphabet; i++) {
+        alphabet = 'A' + i;
+    }
 }
